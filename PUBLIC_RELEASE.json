@@ -1,0 +1,29 @@
+{
+  "cloud": "gcp",
+  "files": {
+    ".github/CODEOWNERS": "5a4130272f21378111ebde76bfb013f2fc34448e77158e3c03a93665e29f4615",
+    ".github/workflows/validate.yml": "e3a009b5ba13e45bedac94bf01c4e0f86b57ba95d3ac20b61a9e786c75abf9ec",
+    ".gitignore": "4734e694e71ad577a4574cf3f0584fee82b0e78c7ad55efaaa3c46c1406b46b1",
+    "CHANGELOG.md": "63ca4bc3e901c486ec1f5cc77fc7b2dcce8e2548a897eb31744388aeb81aa82b",
+    "LICENSE": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+    "README.md": "96f22afb97c9d28b28e0fa36385aab923e5ed678a2bd5637e80b034ca8569ae8",
+    "SECURITY.md": "0ade52c3e01e4df59de1afbf3916e90c29329e64af1e1b739804e22ce42e58b6",
+    "examples/data-scan/main.tf": "e8886fca71a465ead08271d966c156f069e75cb5e1550f5ddafc837e69530a9e",
+    "examples/multi-project/main.tf": "52e7ed97f68d8c3ef955c0ce3b7f65838857ee85da5937af8809b0264c725699",
+    "examples/org-scan/main.tf": "0985945a477da000c0a35855692711b01edefd9962b0ace10a63e780efff0fd6",
+    "examples/single-project/main.tf": "85842509467123db329b012d1c8a5df1e3dbae905277ebd80be5451ed2f67bac",
+    "generated/permissions.json": "2d405f34080fef179630869ecdc2969a7a2254405e1e6f2ab5a83cbfb21a99e4",
+    "main.tf": "8922e48471b4c6c9945c7229fa3dfb26144e2985cf9b4189dee59ae3613f589f",
+    "modules/org-scan/main.tf": "42f7b3c0bcf7b60dd9081fdbba36eab1b471c46ee38d3140ead69c25651a269e",
+    "modules/org-scan/outputs.tf": "fae48959120c5e9137da7de752ac7413aae8a1d993cbc89b5c940e6ae884549a",
+    "modules/org-scan/variables.tf": "c4360e5d87e7aa999e91b0dcaa21195739f79d8618fd519aec7b1a9e868ef47f",
+    "modules/org-scan/versions.tf": "687cbf82f9fa25453235a49eba5e5d09c253dfe103788872bd6cf90043df6fd1",
+    "outputs.tf": "26e5135858f1a4e93be70584762621cab1b0e42e459b4d334df4f2323c01de10",
+    "tests/inventory.tftest.hcl": "9b40e5ae31fc3c3fbdfeafa158eaac7d159cb032940974a6f02d0f7d82e03a33",
+    "variables.tf": "195a56142adb050e7519ca5a9637f6f80924fe5a867b6d9c0f7f5016272485c5",
+    "versions.tf": "687cbf82f9fa25453235a49eba5e5d09c253dfe103788872bd6cf90043df6fd1"
+  },
+  "repository": "Relyance/terraform-google-integration",
+  "source_revision": "c6d351dfd5702e84300a1b601b60e4b5f29ada10",
+  "version": "1.2.0"
+}
