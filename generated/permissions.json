@@ -1,0 +1,71 @@
+{
+  "_comment": "Generated from the Relyance supported-connector permission catalog -- do not edit by hand.",
+  "integrations": {
+    "gcloud_storage": {
+      "service": "Google Cloud Storage",
+      "roles": [
+        "roles/storage.objectViewer"
+      ],
+      "permissions": [
+        "storage.buckets.get",
+        "storage.buckets.getIamPolicy",
+        "storage.buckets.list",
+        "storage.objects.get",
+        "storage.objects.list"
+      ],
+      "covered_by": {
+        "storage.buckets.get": "roles/iam.securityAuditor",
+        "storage.buckets.getIamPolicy": "roles/iam.securityAuditor",
+        "storage.buckets.list": "roles/iam.securityAuditor"
+      }
+    },
+    "gcloud_bigquery": {
+      "service": "Google BigQuery",
+      "roles": [
+        "roles/bigquery.dataViewer",
+        "roles/bigquery.jobUser"
+      ],
+      "permissions": [
+        "bigquery.datasets.get",
+        "bigquery.jobs.create",
+        "bigquery.tables.get"
+      ],
+      "covered_by": {}
+    },
+    "gcloud_spanner": {
+      "service": "Google Cloud Spanner",
+      "roles": [
+        "roles/spanner.databaseReader",
+        "roles/spanner.viewer"
+      ],
+      "permissions": [
+        "spanner.databases.get",
+        "spanner.databases.list",
+        "spanner.databases.read",
+        "spanner.databases.select",
+        "spanner.instances.get",
+        "spanner.sessions.create",
+        "spanner.sessions.delete",
+        "spanner.sessions.get"
+      ],
+      "covered_by": {}
+    },
+    "gcloud_bigtable": {
+      "service": "Google Cloud Bigtable",
+      "roles": [
+        "roles/bigtable.reader"
+      ],
+      "permissions": [
+        "bigtable.tables.list",
+        "bigtable.tables.readRows"
+      ],
+      "covered_by": {}
+    },
+    "gcloud_operations": {
+      "service": "Google Cloud Operations (Cloud Trace)",
+      "roles": [],
+      "permissions": [],
+      "covered_by": {}
+    }
+  }
+}
